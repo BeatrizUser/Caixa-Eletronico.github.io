@@ -1,7 +1,21 @@
-.notas, .moedas{
-    margin: 15px;
-}
-.juquinha{
-    height: 130px;
+.notas{
+    position: absolute;
+    height: 40vh;
     width: auto;
+    top: 50vh;
+    left: 50vw;
 }
+#saqueNotas{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.moedas{
+    top: 50vh;
+    position: absolute;
+}
+
