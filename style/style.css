@@ -1,12 +1,12 @@
 .notas{
     position: absolute;
-    height: 40vh;
+    height: 235px;
     width: auto;
-    top: 50vh;
-    left: 50vw;
+    top: 200px;
+    left: 6vw;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.289);
 }
-#saqueNotas{
-    margin-top: 50px;
+.saqueNotas, .saqueMoedas{
     display: flex;
     justify-content: center;
     align-content: center;
@@ -15,7 +15,6 @@
     align-items: center;
 }
 .moedas{
-    top: 50vh;
     position: absolute;
 }
 
